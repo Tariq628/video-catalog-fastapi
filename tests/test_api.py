@@ -1,5 +1,6 @@
 from fastapi.testclient import TestClient
 from tests.test_data_factory import VideoFactory
+
 from video_catalog_api.main import app
 
 client = TestClient(app)

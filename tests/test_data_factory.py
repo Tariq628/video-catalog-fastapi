@@ -1,4 +1,5 @@
 import factory
+
 from video_catalog_api.connection_helper import db_connection
 
 
